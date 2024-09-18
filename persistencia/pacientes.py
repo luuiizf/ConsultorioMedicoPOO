@@ -3,7 +3,7 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from persistenciaBase import PersistenciaBase
-from entitades.paciente import Paciente
+from entidades.paciente import Paciente
 
 import json
 
