@@ -1,4 +1,4 @@
-from usuario import Usuario
+from entidades.usuario import Usuario
 
 class Medico(Usuario):
     def __init__(self, id, nome, CRM, especialidade):

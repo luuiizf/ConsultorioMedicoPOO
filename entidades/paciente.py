@@ -1,4 +1,4 @@
-from usuario import Usuario
+from entidades.usuario import Usuario
 from datetime import datetime
 
 class Paciente(Usuario):

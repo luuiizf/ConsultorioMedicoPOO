@@ -1,4 +1,4 @@
-from usuario import Usuario
+from entidades.usuario import Usuario
 
 class Procedimento(Usuario):
     def __init__(self, id, nome, valor):
